@@ -1,23 +1,7 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
 
 After you're finished please remove all the comments and instructions!
 -->
@@ -57,11 +41,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [portfolio] <a name=""></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+Capstone project which was built from scratch as part of Micriverse course for mastering Html and Css.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,44 +54,19 @@ After you're finished please remove all the comments and instructions!
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+  - Html
+- Css
+- Javascript
+- Major languages
+- Frameworks
+- Technologies used
 </details>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://lawrahkonwea.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +74,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -124,26 +81,33 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+Before attempting to get a copy of this, you should know(have) how to do the following:
 
-```sh
- gem install rails
-```
- -->
+- How to use the command line interface(CLI)
+
+- Know how to navigate directories or folders at the CLI.
+
+- Know how to get the URL(https/ssh) of a repository on GitHub.
+
+- You should have a code editor installed, preferably VsCode.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+- In desired folder or directory in the CLI, run the command:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+> git clone (https/ssh)URL
+
+-Navigate into the cloned folder or repository by running the command:
+
+> cd <folder/name of the repository>
+
+- If VsCode is your default code editor, run:
+
+> code .
+
+- You are all setup!
 
 ### Install
 
@@ -170,18 +134,6 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
@@ -204,37 +156,18 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/lawrahkonwea)
+- Twitter: [@twitterhandle](https://twitter.com/lawrah_xo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/laurakonwea)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +175,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+Contributions, issues, and feature requests are welcome!
 
-If you like this project...
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -283,3 +221,14 @@ This project is [MIT](./LICENSE) licensed.
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
