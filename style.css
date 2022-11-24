@@ -537,7 +537,6 @@ body::before {
   .lecture {
     display: flex;
     flex-direction: column;
-
   }
 
   .speaker {
@@ -546,7 +545,7 @@ body::before {
     align-items: center;
     gap: 1.5rem;
   }
-  
+
   .the-img {
     width: 100%;
   }
