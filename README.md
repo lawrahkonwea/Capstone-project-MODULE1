@@ -3,8 +3,6 @@
 <a name="readme-top"></a>
 
 
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -66,7 +64,7 @@ Capstone project which was built from scratch as part of Micriverse course for m
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://lawrahkonwea.github.io/My-portfolio/)
+- [Live Demo Link](https://lawrahkonwea.github.io/Capstone-project-MODULE1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
