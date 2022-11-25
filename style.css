@@ -33,7 +33,7 @@ body::before {
 }
 
 .main-container {
-  margin: auto 29px;
+  margin: auto 40px;
 }
 
 .header {
@@ -241,7 +241,7 @@ body::before {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40vh;
-  padding: 10% 20%;
+  padding: 5% 27%;
   margin: 0 3%;
 }
 
@@ -250,7 +250,7 @@ body::before {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40vh;
-  padding: 10% 20%;
+  padding: 5% 27%;
   margin: 0 3%;
 }
 
@@ -268,15 +268,28 @@ body::before {
 .footer {
   background-color: #fff;
   color: #272a31;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-about {
+  background-color: #272a31;
+  color: #fff;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 #footer-con {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  margin: auto;
   align-items: center;
+  gap: 100px;
+}
+
+.md-footer-img {
+  display: none;
 }
 
 .speaker {
@@ -288,7 +301,7 @@ body::before {
 
 .connect-sections {
   background-color: #272a31;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .connect-img {
@@ -296,7 +309,7 @@ body::before {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .main-program2 {
@@ -310,16 +323,17 @@ body::before {
 @media screen and (min-width: 50em) {
   .past-event {
     display: flex;
-    gap: 10px;
+    gap: 0;
     flex-direction: row;
+    margin-bottom: 7%;
   }
 
   .past-event1 {
-    padding: 10% 15%;
+    padding: 10% 10%;
   }
 
   .past-event2 {
-    padding: 10% 15%;
+    padding: 10% 10%;
   }
 
   .lecture {
@@ -398,6 +412,14 @@ body::before {
     margin-bottom: 10px;
     color: rgb(223, 8, 8);
     font-style: italic;
+  }
+
+  .connect-sections-about {
+    display: none;
+  }
+
+  .the-img {
+    width: 12%;
   }
 }
 
@@ -505,23 +527,26 @@ body::before {
     margin-top: 10%;
     margin-bottom: 10%;
     transition: 0.5s;
-    height: 400px;
+    height: 630px;
     overflow: hidden;
   }
 
-  #viewmore {
-    background-color: #ec5242;
-    color: #d3d3d3;
-    padding: 5px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.5s;
+  .view-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  #viewmore:hover {
-    background-color: #464543;
-    color: white;
+  #viewmore {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border: 1px solid rgb(36, 35, 35);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
   }
 
   .activated {
@@ -530,6 +555,36 @@ body::before {
 
   .speaker {
     padding: 15px;
+  }
+
+  .footer-about {
+    background-color: #fff;
+    color: #272a31;
+    padding-top: 0;
+  }
+
+  #footer-con {
+    gap: 40px;
+  }
+
+  .my-logo4 {
+    display: none;
+  }
+
+  .md-footer-img {
+    display: block;
+  }
+
+  .the-img {
+    width: 25%;
+  }
+
+  .connect-sections-home {
+    display: none;
+  }
+
+  .footer-home {
+    display: none;
   }
 }
 
@@ -547,6 +602,10 @@ body::before {
   }
 
   .the-img {
-    width: 100%;
+    width: 25%;
+  }
+
+  .connect-img {
+    width: 95%;
   }
 }
